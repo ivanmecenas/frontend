@@ -1,0 +1,88 @@
+.access-type-container {
+  background-color: #0052A5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFA500;
+  margin-bottom: 40px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #FFA500;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.user-greeting {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  margin-right: 5px;
+}
+
+.date {
+  font-size: 14px;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #FFA500;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.access-options {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 600px;
+}
+
+.access-button {
+  background-color: #FFA500;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.general-icon {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"/><path d="M5 22v-5c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v5"/><path d="M18 2v3M22 6l-4-4-4 4"/></svg>');
+}
+
+.administrative-icon {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>');
+}
